@@ -1,0 +1,19 @@
+{
+    "name": "z0y/alipay",
+    "description": "支付宝phpSDK",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "z0y",
+            "email": "zhao0yan@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "z0y\\": "src"
+        },
+        "files": [
+            "src/Alipay.php"
+        ]
+    }
+}
